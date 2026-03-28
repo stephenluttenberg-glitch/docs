@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "quill",
+  "theme": "venus",
   "appearance": "dark",
   "name": "OpenSeller",
   "colors": {
