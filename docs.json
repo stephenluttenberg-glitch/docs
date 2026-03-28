@@ -1,13 +1,22 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "quill",
+  "appearance": "dark",
   "name": "OpenSeller",
   "colors": {
     "primary": "#5B66FF",
-    "light": "#7B84FF",
-    "dark": "#060A1A"
+    "light": "#8B96FF",
+    "dark": "#3245FF",
+    "background": {
+      "dark": "#060A1A",
+      "light": "#FFFFFF"
+    }
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -47,15 +56,11 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@openseller.io"
+        "href": "mailto:hello@openseller.io"
       }
     ],
     "primary": {
@@ -66,7 +71,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/openseller"
+      "x": "https://x.com/openseller",
+      "website": "https://openseller.io"
     }
-  }
+  },
+  "rounded": "default"
 }
